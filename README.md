@@ -38,12 +38,10 @@ Required:
 - `JWT_SECRET` – any long random string
 - `OPENROUTER_API_KEY` – from https://openrouter.ai/keys
 
-Optional (backend routes for D-ID/Murf avatar generation, not used by the main interview page):
+Optional:
 
-- `MURF_API_KEY`
-- `DID_API_KEY`
-- `AVATAR_IMAGE_URL`
 - `NEXT_PUBLIC_APP_URL` – defaults to `http://localhost:3000`
+- `MURF_API_KEY`, `DID_API_KEY`, `AVATAR_IMAGE_URL` – only for the D-ID/Murf avatar backend routes, which the main interview page does not use
 
 ## Scripts
 
